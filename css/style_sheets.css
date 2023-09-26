@@ -1,0 +1,13 @@
+.header {
+	height: 20%;
+	width: 100%;
+}
+
+.notifications-block{
+	display: none;
+}
+
+.main {
+	height: 70%;
+	width: 100%;
+}
