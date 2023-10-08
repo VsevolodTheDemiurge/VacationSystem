@@ -14,16 +14,27 @@
 			</div>
 			
 			<div class="navigation-block">
-				<div class="notifications-block">
-					<p class="notification-text">Текст уведомления</p>
-					<p class="notification-text">Текст уведомления</p>
-					<p class="notification-text">Текст уведомления</p>
-					<p class="notification-text">Текст уведомления</p>
-					<p class="notification-text">Текст уведомления</p>
+				<input class="navigation-notification-button" id="openNotifications" type="image" src=".\imgs\notifications-icon.svg" alt="notifications-button">
+				<script type="text/javascript" src=".\js\notifButtonScript.js"></script>
+				
+				<div id="notifWindow" class="notifications-window">
+					<div class="notification-block">
+						<h3 class="notification-header">Вы гей</h3>
+						<p class="notification-text">да да да да да да да это правда</p>
+					</div>
+					<div class="notification-block">
+						<h3 class="notification-header">Вы гей</h3>
+						<p class="notification-text">да да да да да да да это правда</p>
+					</div>
+					<div class="notification-block">
+						<h3 class="notification-header">Вы гей</h3>
+						<p class="notification-text">да да да да да да да это правда</p>
+					</div>
 				</div>
 
-				<input class="navigation-notification-button" id="imageNotifButton" type="image" src=".\imgs\notifications-icon.svg" alt="notifications-button">
-				<script type="text/javascript" src=".\js\script.js"></script>
+				<script src=".\js\notifBarScript.js"></script>
+
+
 				<button class="navigation-button">Главная страница</button>
 				<button class="navigation-button">Личный кабинет</button>
 				<button class="navigation-button">Оформление заявки</button>

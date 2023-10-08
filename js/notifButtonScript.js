@@ -1,5 +1,5 @@
 // Получаем ссылку на элемент кнопки с изображением
-const imageButton = document.getElementById('imageNotifButton');
+const imageButton = document.getElementById('openNotifications');
 
 // Устанавливаем обработчик события "click" для кнопки
 imageButton.addEventListener('click', function() {
@@ -12,5 +12,4 @@ imageButton.addEventListener('click', function() {
         imageButton.src = './imgs/notifications-icon.svg';
         imageButton.alt = 'Изображение 1';
     }
-
 });

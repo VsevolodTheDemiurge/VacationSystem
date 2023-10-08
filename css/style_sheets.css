@@ -54,8 +54,14 @@ body{
 	margin-left: 1em;
 }
 
-.notifications-block{
+.notifications-window{
+	position: absolute;
 	display: none;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 30%;
+	background: lightgray;
 }
 
 .main {
