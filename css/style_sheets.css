@@ -38,11 +38,14 @@ body{
  	width: 25px;
   	height: 25px;
   	margin-right: 2em;
+  	padding: 5px;
 	float: left;
 	cursor: pointer;
 	border: none;
 	background: lightgray;
 }
+
+
 
 .logo-block{
 	float: left;
@@ -59,9 +62,15 @@ body{
 	display: none;
 	top: 0;
 	left: 0;
-	width: 20%;
-	height: 30%;
-	background: lightgray;
+	width: 25%;
+	height: 45%;
+	background: #c4cdd4;
+	box-shadow: 12px 12px 2px 1px lightgray;
+	font-family: Verdana;
+}
+
+.notification-block{
+	padding-left: 15px;
 }
 
 .main {
