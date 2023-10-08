@@ -1,6 +1,7 @@
 body{
 	margin: 0;
-	height: 95vh;
+	padding: 0;
+	height: 97.8vh;
 }
 
 .header {
@@ -10,14 +11,47 @@ body{
 
 .navigation-block{
 	float: right;
-	padding: 1em 8em 1em;
-	margin: 1em 0 1em;
-	background: black;
+	padding: 1em 3em 1em;
+	background: lightgray;
+	border-bottom-left-radius: 20px;
+}
+
+.navigation-button{
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 0.3em;
+	border: none;
+	background: none;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.navigation-button:hover{
+	color: lightslategray;
+}	
+
+.navigation-button:active{
+	color: gray;
+}	
+
+.navigation-notification-button{
+ 	width: 25px;
+  	height: 25px;
+  	margin-right: 2em;
+	float: left;
+	cursor: pointer;
+	border: none;
+	background: lightgray;
 }
 
 .logo-block{
 	float: left;
-	margin: 0 2em;
+}
+
+.logo-text{
+	font-weight: bolder;
+	margin-top: 0.3em;
+	margin-left: 1em;
 }
 
 .notifications-block{
@@ -41,4 +75,6 @@ body{
 .footer{
 	height: 10%;
 	width: 100%;
+	background: lightgray;
 }
+
