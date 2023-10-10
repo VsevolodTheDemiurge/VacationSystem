@@ -2,10 +2,11 @@ body{
 	margin: 0;
 	padding: 0;
 	height: 97.8vh;
+	font-family: Verdana, sans-serif;
 }
 
 .header {
-	height: 20%;
+	height: 10%;
 	width: 100%;
 }
 
@@ -19,7 +20,7 @@ body{
 .navigation-button{
 	margin-left: 2em;
 	margin-right: 2em;
-	margin-top: 0.3em;
+	margin-top: 0.7em;
 	border: none;
 	background: none;
 	font-weight: bolder;
@@ -44,8 +45,6 @@ body{
 	border: none;
 	background: lightgray;
 }
-
-
 
 .logo-block{
 	float: left;
@@ -74,13 +73,30 @@ body{
 }
 
 .main {
-	height: 70%;
+	height: 80%;
 	width: 100%;
 
 }
 
+.main-text-greet-title{
+
+}
+
+.main-text-list-title{
+}
+
+.main-text-list{
+}
+
+.main-text{
+	padding-left: 2em;
+}
+
 .main-text-block{
+	padding-left: 2em;
+	padding-top: 1.5em;
 	float: left;
+	width: 60%;
 }
 
 .main-img-block{
@@ -91,5 +107,15 @@ body{
 	height: 10%;
 	width: 100%;
 	background: lightgray;
+}
+
+.footer-text-block{
+	width: 100%;
+}
+
+.footer-text{
+	font-weight: lighter;
+	text-align: center;
+	padding-top: 2em;
 }
 
