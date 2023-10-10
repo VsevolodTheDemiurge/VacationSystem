@@ -4,13 +4,13 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Запись в отпуск | Главная</title>
-		<link rel="stylesheet" type="text/css" href=".\css\style_sheets.css">
+		<link rel="stylesheet" type="text/css" href=".\css\style_sheets-index.css">
 		<link rel="shortcut icon" href=".\imgs\home-page-ico.ico">
 	</head>
 	<body>
 		<div class="header">
 			<div class="logo-block">
-					<h1 class="logo-text">ЛОГОТИП</h1>
+					<h2 class="logo-text">НПО "ЭЛЕКТРОАВТОМАТИКА"</h2>
 			</div>
 			
 			<div class="navigation-block">
@@ -35,11 +35,10 @@
 				<script src=".\js\notifBarScript.js"></script>
 
 
-				<button class="navigation-button">Главная страница</button>
-				<button class="navigation-button">Личный кабинет</button>
-				<button class="navigation-button">Оформление заявки</button>
-				<button class="navigation-button">О нас</button>
-				<button class="navigation-button">Вход\Регистрация</button>
+				<button class="navigation-button" onclick="document.location='index.html'">Главная страница</button>
+				<button class="navigation-button" onclick="document.location='./pages/#'">Оформление заявки</button>
+				<button class="navigation-button" onclick="document.location='./pages/#'">Личный кабинет</button>
+				<button class="navigation-button" onclick="document.location='./pages/authorization-page.html'">Вход\Регистрация</button>
 			</div>
 		</div>
 
@@ -82,7 +81,7 @@
 				</ul>
 			</div>
 			<div class="main-img-block">
-				<img src="#">
+				<img class="main-image" src=".\imgs\main-pic.png">
 			</div>
 		</div>
 

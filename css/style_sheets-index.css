@@ -52,7 +52,7 @@ body{
 
 .logo-text{
 	font-weight: bolder;
-	margin-top: 0.3em;
+	margin-top: 0.8em;
 	margin-left: 1em;
 }
 
@@ -73,7 +73,7 @@ body{
 }
 
 .main {
-	height: 80%;
+	height: 89%;
 	width: 100%;
 
 }
@@ -100,11 +100,25 @@ body{
 }
 
 .main-img-block{
+	width: 30%;
 	float: right;
+	padding-right: 80px;
+	padding-top: 6em;
+}
+
+.main-image{
+	width: 500px;
+	box-shadow: 12px 12px steelblue;
+	transition-duration: 1s;
+}
+
+.main-image:hover{
+	box-shadow: 14px 14px 3px lightblue;
+	transition-duration: 1s;
 }
 
 .footer{
-	height: 10%;
+	height: 3%;
 	width: 100%;
 	background: lightgray;
 }
@@ -116,6 +130,8 @@ body{
 .footer-text{
 	font-weight: lighter;
 	text-align: center;
-	padding-top: 2em;
+	margin: 0;
+	padding-top: 4px;
+	font-size: 10px;
 }
 
