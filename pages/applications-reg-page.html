@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="..\css\style_sheets-applications.css">
+    <title>Запись в отпуск | Оформление заявок</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-block">
+            <h2 class="logo-text">НПО "ЭЛЕКТРОАВТОМАТИКА"</h2>
+        </div>
+
+        <div class="navigation-block">
+            <input class="navigation-notification-button" id="openNotifications" type="image" src="..\imgs\notifications-icon.svg" alt="notifications-button">
+            <script type="text/javascript" src="..\js\notifButtonScript.js"></script>
+
+            <div id="notifWindow" class="notifications-window">
+                <div class="notification-block">
+                        <h4 class="notification-header">(Новое\старое) уведомление</h4>
+                        <p class="notification-text">(Имя человека) работает уже 10 лет, ни разу не взял отпуск, больной.</p>
+                    </div>
+                    <div class="notification-block">
+                        <h4 class="notification-header">(Новое\старое) уведомление</h4>
+                        <p class="notification-text">(Имя человека) было отказано в отпуске из-за администрации</p>
+                    </div>
+                    <div class="notification-block">
+                        <h4 class="notification-header">(Новое\старое) уведомление</h4>
+                        <p class="notification-text">(Имя человека) отправился в отпуск по одобрению администрации</p>
+                    </div>
+            </div>
+
+            <script src="..\js\notifBarScript.js"></script>
+
+            <button class="navigation-button" onclick="document.location='../index.html'">Главная страница</button>
+            <button class="navigation-button" onclick="document.location='../pages/applications-reg-page.html'">Оформление заявки</button>
+            <button class="navigation-button" onclick="document.location='../pages/#'">Личный кабинет</button>
+            <button class="navigation-button" onclick="document.location='../pages/authorization-page.html'">Вход\Регистрация</button>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-text-block">
+            <h1 class="main-text-greet-title">Бронирование отпусков</h1>
+            <form id="vacation-form">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="start-date">Дата начала отпуска:</label>
+                <input type="date" id="start-date" name="start-date" required>
+
+                <label for="end-date">Дата окончания отпуска:</label>
+                <input type="date" id="end-date" name="end-date" required>
+
+                <button type="submit">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-text-block">
+            <p class="footer-text">Система была разработана студентами группы 42919\5, ИСПО Им. Петра I</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="your-vacation-form-script.js"></script>
+</body>
+</html>

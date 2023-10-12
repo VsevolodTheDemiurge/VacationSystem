@@ -12,11 +12,11 @@ if (currentPath.endsWith('index.html')){
 else if (currentPath.endsWith('/authorization-page.html')){
     activeImagePath = '../imgs/notifications-icon-active.svg';
     unactiveImagePath = '../imgs/notifications-icon.svg';
-}/*
-else if (currentPath.endsWith('/authorization-page.html')){
+}
+else if (currentPath.endsWith('/applications-reg-page.html')){
     activeImagePath = '../imgs/notifications-icon-active.svg';
     unactiveImagePath = '../imgs/notifications-icon.svg';
-}
+}/*
 else if (currentPath.endsWith('/authorization-page.html')){
     activeImagePath = '../imgs/notifications-icon-active.svg';
     unactiveImagePath = '../imgs/notifications-icon.svg';

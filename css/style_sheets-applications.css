@@ -77,24 +77,18 @@ body {
     width: 100%;
 }
 
-.authorization-login-block,
-.authorization-signup-block {
-    width: 50%;
-    float: left;
-    padding: 1em;
+.main-text-block {
+    padding-left: 2em;
+    padding-top: 1.5em;
+    width: 60%;
 }
 
-.login-header,
-.signup-header {
+h1 {
     font-weight: bolder;
 }
 
-.login-username-block,
-.login-password-block,
-.signup-username-block,
-.signup-password-block,
-.signup-fullname-block {
-    margin: 1em 0;
+form {
+    margin-top: 1em;
 }
 
 label {
@@ -102,20 +96,15 @@ label {
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="date"] {
     width: 100%;
     padding: 0.5em;
     border: 1px solid lightgray;
     border-radius: 5px;
 }
 
-.login-button-block,
-.signup-button-block {
-    text-align: center;
-    margin-top: 1em;
-}
-
 button[type="submit"] {
+    margin-top: 1em;
     padding: 0.5em 1em;
     background: lightgray;
     border: none;
@@ -124,8 +113,26 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-.button[type="submit"]:hover {
+button[type="submit"]:hover {
     background: lightslategray;
+}
+
+.main-img-block {
+    width: 30%;
+    float: right;
+    padding-right: 80px;
+    padding-top: 6em;
+}
+
+.main-image {
+    width: 500px;
+    box-shadow: 12px 12px steelblue;
+    transition-duration: 1s;
+}
+
+.main-image:hover {
+    box-shadow: 14px 14px 3px lightblue;
+    transition-duration: 1s;
 }
 
 .footer {
